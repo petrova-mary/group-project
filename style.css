@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg);
+    background-size: cover;
+    height: 230vh;
+    width: 100%;
+    
+}
+main {
+    margin-top: 100px;
+}
+
+/* icons style */
+.icons {
+    color: rgb(0, 123, 255);
+    text-align: center;
+    font-size: 72px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.icons:hover {
+    font-size: 80px;
+    margin-bottom: 10px; 
+}
+.container {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    color: rgb(33,37,41);
+    margin: auto;
+}
+.first-icon, .second-icon, .third-icon {
+    box-sizing: border-box;
+    margin: 10px;
+    height: 200px;
+    max-width: 320px;
+}
+.text-icons {
+    font-size: 19px;
+}
+h3 {
+    font-size: 27px;
+}
+.featuring-icons {
+    background-color: rgb(248, 249, 250);
+    padding: 110px 0;
+}
+/*  */
+/* Blocks style */
+.text-pics {
+    background-color: white;
+}
+.pic-one {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-1.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 480px;
+    position: relative;
+}
+.text-one {
+    color: rgb(33,37,41);
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    width: 454.4px;
+    margin-left: 150px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.tx-one-box {
+    max-width: 50%;
+    height: 480px;
+    display: flex;
+}
+.block-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tx-pics {
+    margin-bottom: 10px;
+}
+/* pic 2 */
+.pic-two {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-2.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 480px;
+    position: relative;
+    display: flex;
+}
+.text-two {
+    color: rgb(33,37,41);
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    max-width: 454.4px;
+    margin-left: 150px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.tx-two-box {
+    max-width: 50%;
+    height: 480px;
+    display: flex; 
+    
+}
+.block-two {
+    display: flex;
+    flex-direction: row;
+}
+/* pic 3 */
+.pic-three {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-showcase-3.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 480px;
+    position: relative;
+}
+.text-three {
+    color: rgb(33,37,41);
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    max-width: 454.4px;
+    margin-left: 150px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+}
+.tx-three-box {
+    max-width: 50%;
+    height: 480px;
+    display: flex;
+}
+.block-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
